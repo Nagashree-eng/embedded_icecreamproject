@@ -1,0 +1,14 @@
+parameters:
+  app.myParam: 'creating service for first time'
+
+
+services:
+  validator.unique.sameflavour:
+    class: AppBundle\Validator\Constraints\ContainsSameFlavours
+    tags:
+      - { name: validator.constraint_validator }
+
+  AppBundle\Service\Amount:
+#    class: AppBundle\Service\Amount
+      public: true
+      arguments: ['@doctrine.orm.entity_manager']

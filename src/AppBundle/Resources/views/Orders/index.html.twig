@@ -1,0 +1,33 @@
+<html>
+<head>
+    {% block javascripts %}
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+        <script src="{{ asset('bundles/app/js/bootstrap.js') }}"></script>
+        <script src="{{ asset('bundles/app/js/jquery.collection.js') }}"></script>
+        <script src="{{ asset('bundles/app/js/index.js') }}"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    {% endblock %}
+    <link rel="stylesheet" href="{{ asset('bundles/app/css/newstyle.css') }}"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+
+{% block body %}
+    <hr/>
+
+{#    If one or more of the twig files that extend your layout do not contain a form then presumably you won't be passing a form variable to them. You can get round this by updating your layout file as follows:#}
+
+    {% if form is defined %}
+        {% form_theme form with ['form/form-theme.html.twig'] %}
+
+        {{ form(form) }}
+    {% endif %}
+{% endblock %}
+
+</body>
+</html>
