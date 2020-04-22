@@ -2,81 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="719aefb7-9df7-40eb-8490-0d0e9410dbce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/icecream.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AppCache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/form/form-theme.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config_dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config_prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config_test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/symfony_requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/OrdersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Flavours.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Orders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/OrdersFlavours.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/OrdersToppings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Toppings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Form/FlavoursType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Form/OrdersFlavoursType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Form/OrdersType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Repository/FlavoursRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Repository/OrdersFlavoursRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Repository/OrdersRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Repository/OrdersToppingsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Repository/ToppingsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/css/newstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/js/jquery.collection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Orders/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Orders/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/home.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Service/Amount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Validator/Constraints/ContainsSameFlavours.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Validator/Constraints/ContainsSameFlavoursValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/logs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/sessions/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app_dev.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/9933d5f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/9933d5f_bootstrap_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/9933d5f_jquery.collection_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/9933d5f_jquery_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +169,7 @@
       <workItem from="1587444731391" duration="5011000" />
       <workItem from="1587450985952" duration="12329000" />
       <workItem from="1587470137224" duration="9329000" />
-      <workItem from="1587531739908" duration="3070000" />
+      <workItem from="1587531739908" duration="3667000" />
     </task>
     <servers />
   </component>
